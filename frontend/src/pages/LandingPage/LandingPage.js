@@ -1,9 +1,13 @@
+import Request from '../../components/Request/Request';
+
 import './LandingPage.css';
 
 const LandingPage = () => {
   return (
     <div className='LandingPage'>
-      <h1>Hello Landing Page</h1>
+      <div className='LandingPage-container'>
+        <Request />
+      </div>
     </div>
   );
 };

@@ -1,0 +1,50 @@
+.Navbar {
+  width: 100vw;
+  background-color: bisque;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: fixed;
+  top: 0;
+}
+
+.Navbar .Navbar-container {
+  width: 1100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Navbar .Navbar-container .Navbar-left .Navbar-logo {
+  color: darkslategrey;
+}
+
+.Navbar .Navbar-container .Navbar-left .Navbar-logo span {
+  color: coral;
+}
+
+.Navbar .Navbar-container .Navbar-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Navbar .Navbar-container .Navbar-right p {
+  margin-left: 0.25rem;
+}
+/*# sourceMappingURL=Navbar.css.map */

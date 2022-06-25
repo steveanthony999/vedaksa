@@ -1,0 +1,35 @@
+.Navbar {
+  width: 100vw;
+  background-color: bisque;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+
+  .Navbar-container {
+    width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .Navbar-left {
+      .Navbar-logo {
+        color: darkslategrey;
+
+        span {
+          color: coral;
+        }
+      }
+    }
+
+    .Navbar-right {
+      display: flex;
+      align-items: center;
+
+      p {
+        margin-left: 0.25rem;
+      }
+    }
+  }
+}

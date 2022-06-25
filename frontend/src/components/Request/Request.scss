@@ -1,0 +1,22 @@
+.Request {
+  background-color: white;
+  margin: 1rem 0;
+
+  .Request-container {
+    border-left: 12px solid coral;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .Request-container-left {
+      width: 85%;
+      padding: 1rem;
+    }
+    .Request-container-right {
+      padding: 1rem;
+      width: 15%;
+      background-color: coral;
+      color: white;
+    }
+  }
+}
