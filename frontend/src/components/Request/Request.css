@@ -1,10 +1,96 @@
 .Request {
   background-color: white;
   margin: 1rem 0;
+  border-radius: 15px;
 }
 
 .Request .Request-container {
-  border-left: 12px solid coral;
+  border-top: 2px solid coral;
+  border-left: 2px solid lightcoral;
+  border-right: 2px solid lightcoral;
+  border-bottom: 2px solid coral;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 15px;
+}
+
+.Request .Request-container .Request-container-left {
+  width: 85%;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Request .Request-container .Request-container-left .Request-votes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Request .Request-container .Request-container-left .Request-votes .Request-votes-upvotes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Request .Request-container .Request-container-left .Request-votes .Request-votes-upvotes p {
+  font-weight: 600;
+  font-size: 0.75rem;
+}
+
+.Request .Request-container .Request-container-left .Request-votes .Request-votes-downvotes {
+  margin-left: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Request .Request-container .Request-container-left .Request-votes .Request-votes-downvotes p {
+  font-weight: 600;
+  font-size: 0.75rem;
+}
+
+.Request .Request-container .Request-container-left .Request-info {
+  margin-left: 1rem;
+}
+
+.Request .Request-container .Request-container-left .Request-info .Request-heading .Request-heading-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Request .Request-container .Request-container-left .Request-info .Request-heading .Request-heading-top .Request-user-info {
+  margin-left: 8px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -17,15 +103,69 @@
           align-items: center;
 }
 
-.Request .Request-container .Request-container-left {
-  width: 85%;
-  padding: 1rem;
+.Request .Request-container .Request-container-left .Request-info .Request-heading .Request-heading-top .Request-user-info svg {
+  margin-left: 2px;
+}
+
+.Request .Request-container .Request-container-left .Request-info .Request-heading .Request-description {
+  margin-top: 8px;
+}
+
+.Request .Request-container .Request-container-left .Request-info .Request-tags {
+  margin-top: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Request .Request-container .Request-container-left .Request-info .Request-tags .tag {
+  margin-top: 8px;
+  margin-left: 8px;
+  padding: 0.25rem 0.5rem;
+  background-color: whitesmoke;
+  font-weight: 600;
+  font-size: 0.75rem;
+  border-radius: 10px;
+}
+
+.Request .Request-container .Request-container-left .Request-info .Request-tags .tag:first-child {
+  margin-left: 0;
 }
 
 .Request .Request-container .Request-container-right {
   padding: 1rem;
   width: 15%;
-  background-color: coral;
-  color: white;
+  border-radius: 0 15px 15px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Request .Request-container .Request-container-right p {
+  font-weight: 600;
+  font-size: 0.75rem;
+}
+
+.Request .Request-container .Request-container-right .Request-container-right-replies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Request .Request-container .Request-container-right .Request-container-right-media {
+  margin-left: 8px;
+}
+
+.Request .Request-container .Request-container-right .Request-container-right-media svg {
+  margin-left: 2px;
 }
 /*# sourceMappingURL=Request.css.map */

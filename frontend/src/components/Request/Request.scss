@@ -1,22 +1,122 @@
 .Request {
   background-color: white;
   margin: 1rem 0;
+  border-radius: 15px;
 
   .Request-container {
-    border-left: 12px solid coral;
+    border-top: 2px solid coral;
+    border-left: 2px solid lightcoral;
+    border-right: 2px solid lightcoral;
+    border-bottom: 2px solid coral;
     display: flex;
     flex-direction: row;
     align-items: center;
+    border-radius: 15px;
 
     .Request-container-left {
       width: 85%;
       padding: 1rem;
+      display: flex;
+
+      .Request-votes {
+        display: flex;
+        align-items: center;
+
+        .Request-votes-upvotes {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          p {
+            font-weight: 600;
+            font-size: 0.75rem;
+          }
+        }
+
+        .Request-votes-downvotes {
+          margin-left: 2px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          p {
+            font-weight: 600;
+            font-size: 0.75rem;
+          }
+        }
+      }
+
+      .Request-info {
+        margin-left: 1rem;
+
+        .Request-heading {
+          .Request-heading-top {
+            display: flex;
+            align-items: center;
+
+            .Request-user-info {
+              margin-left: 8px;
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+
+              svg {
+                margin-left: 2px;
+              }
+            }
+          }
+
+          .Request-description {
+            margin-top: 8px;
+          }
+        }
+
+        .Request-tags {
+          margin-top: 8px;
+          display: flex;
+          align-items: center;
+
+          .tag {
+            margin-top: 8px;
+            margin-left: 8px;
+            padding: 0.25rem 0.5rem;
+            background-color: whitesmoke;
+            font-weight: 600;
+            font-size: 0.75rem;
+            border-radius: 10px;
+
+            &:first-child {
+              margin-left: 0;
+            }
+          }
+        }
+      }
     }
+
     .Request-container-right {
       padding: 1rem;
       width: 15%;
-      background-color: coral;
-      color: white;
+      border-radius: 0 15px 15px 0;
+      display: flex;
+      align-items: center;
+
+      p {
+        font-weight: 600;
+        font-size: 0.75rem;
+      }
+
+      .Request-container-right-replies {
+        display: flex;
+        align-items: center;
+      }
+
+      .Request-container-right-media {
+        margin-left: 8px;
+
+        svg {
+          margin-left: 2px;
+        }
+      }
     }
   }
 }
