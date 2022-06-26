@@ -24,3 +24,60 @@ a {
   text-decoration: none;
   color: darkslategrey;
 }
+
+a:focus {
+  outline: none;
+  color: dodgerblue;
+}
+
+.text-input {
+  width: 100%;
+  padding: 15px 23px;
+  margin-top: 18px;
+  background: whitesmoke;
+  border: none;
+  border-radius: 10px;
+}
+
+.text-input:focus {
+  outline: 2px solid coral;
+}
+
+label {
+  display: block;
+  margin-left: 6px;
+}
+
+.button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.button-block {
+  width: 100%;
+  display: block;
+}
+
+.button-coral {
+  background-color: coral;
+  color: white;
+  font-weight: 600;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button-coral:focus {
+  background-color: #ff7f50bb;
+}
+
+.mt-24 {
+  margin-top: 24px;
+}
+
+.mt-36 {
+  margin-top: 36px;
+}
