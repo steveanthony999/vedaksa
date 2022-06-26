@@ -1,0 +1,51 @@
+.RegisterPage {
+  width: 100vw;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.RegisterPage .RegisterPage-container {
+  width: 540px;
+  padding: 40px 42px;
+  background: white;
+  border-radius: 15px;
+  border-top: 2px solid coral;
+  border-left: 2px solid lightcoral;
+  border-right: 2px solid lightcoral;
+  border-bottom: 2px solid coral;
+}
+
+.RegisterPage .RegisterPage-container .RegisterPage-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.RegisterPage .RegisterPage-container .RegisterPage-link {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.RegisterPage .RegisterPage-container .RegisterPage-link a {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=RegisterPage.css.map */

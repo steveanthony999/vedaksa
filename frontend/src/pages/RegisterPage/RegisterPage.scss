@@ -1,0 +1,35 @@
+.RegisterPage {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .RegisterPage-container {
+    width: 540px;
+    padding: 40px 42px;
+    background: white;
+    border-radius: 15px;
+    border-top: 2px solid coral;
+    border-left: 2px solid lightcoral;
+    border-right: 2px solid lightcoral;
+    border-bottom: 2px solid coral;
+
+    .RegisterPage-form {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+    }
+
+    .RegisterPage-link {
+      margin-top: 24px;
+      margin-bottom: 24px;
+      text-align: center;
+
+      a {
+        text-decoration: underline;
+      }
+    }
+  }
+}
